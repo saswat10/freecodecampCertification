@@ -1,0 +1,99 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background-image: url("james-padolsey-tvPvROBv0F4-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-attachment: fixed;
+    background-color: rgba(99, 69, 165, 0.98);
+    font-size: 1em;
+    width: 70vw;
+    height: 100%;
+    margin: 0 auto;
+}
+h1 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+}
+h1,
+p {
+    text-align: center;
+    color: floralwhite;
+}
+header p {
+    font-style: italic;
+}
+main {
+    background-color: #1d0544e2;
+    color: azure;
+    padding: 0.5em;
+}
+form {
+    padding: 1em;
+    margin: 1em auto;
+}
+label {
+    display: block;
+    padding: 0.5em;
+}
+.text input {
+    display: block;
+    width: 100%;
+    /* max-width: 500px; */
+}
+::placeholder {
+    color: darkgray;
+}
+input,
+textarea {
+    background-color: ghostwhite;
+    padding: 0.4em;
+    color: midnightblue;
+    border: ghostwhite;
+    height: 1.2em;
+    border-radius: 0.2em;
+    margin: 0.4em auto;
+}
+textarea {
+    display: block;
+    width: 100%;
+    height: 25vh;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+fieldset {
+    border: none;
+}
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    font-size: 0.7em;
+    height: 3em;
+    /* min-width: ; */
+    /* margin: ; */
+    background-color: palegreen;
+    color: darkgreen;
+    border-radius: 2em;
+    /* border: 1px none palegreen;  */
+    /* width: min-content; */
+}
+footer {
+    background-color: #1d0544e2;
+    padding: 0.5em;
+    margin-bottom: 0.2em;
+}
+div{
+    padding:0.5em;
+}
+input[type="checkbox"]{
+    margin:0.1em;
+}
+#dropdown1, #dropdown{
+    display:block;
+    margin:1em auto;
+    width:100%;
+    background-color:ghostwhite;
+    border-radius: 0.2em;
+    border:2px solid ghostwhite;
+    color: midnightblue;
+}
